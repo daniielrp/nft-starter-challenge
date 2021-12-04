@@ -28,8 +28,9 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/nft-starter-challenge-basic-html-and-css-jJR5F1Q2G)
+
+- Live Site URL: [Add live site URL here](https://daniielrp.github.io/nft-starter-challenge/)
 
 ## My process
 Still extremely new, so looking at others code, playing about with CSS to see what various chnages and elements do. Using figma to help with spacing and sizing.
