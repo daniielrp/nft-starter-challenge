@@ -149,6 +149,7 @@ p {
 }
 .attribution {
     position: absolute;
-    left: 42%;
-    bottom: 10px
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%, -5%);
 }
