@@ -11,37 +11,35 @@
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
   
   <title>Frontend Mentor | NFT preview card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 12px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
 <body>
-<div class="card">
-  <div class="nft-image">
-    <div class="nft-image-overlay"><img src="images/icon-view.svg" width="32px" alt="overlay eye icon" class="view-icon"></div>
-    <img class="nft-image-base" src="images/image-equilibrium.jpg" alt="image of the Equilibrium NFT">
-  </div>
-  <h1 class="nft-name">Equilibrium #3429</h1>
-  <p class="nft-desc">Our Equilibrium collection promotes balance and calm.</p>
-  <div class="nft-info-box gap">
-    <div class="nft-price">
-      <img src="images/icon-ethereum.svg" alt="eth-logo" class="eth-icon">
-      <p class="nft-price-text">0.041 ETH</p>
+    <div class="card">
+      <div class="nft-image">
+        <div class="nft-image-overlay"><img src="images/icon-view.svg" alt="overlay eye icon" class="view-icon"></div>
+        <img class="nft-image-base" src="images/image-equilibrium.jpg" alt="image of the Equilibrium NFT">
+      </div>
+      <h1 class="nft-name">Equilibrium #3429</h1>
+      <p class="nft-desc">Our Equilibrium collection promotes balance and calm.</p>
+      <div class="nft-info-box gap">
+        <div class="nft-price">
+          <img src="images/icon-ethereum.svg" alt="eth-logo" class="eth-icon">
+          <p class="nft-price-text">0.041 ETH</p>
+        </div>
+        <div class="nft-time">
+          <img src="images/icon-clock.svg" alt="time remaining" class="time-icon">
+          <p class="nft-time-text">3 days left</p>
+        </div>
+      </div>
+      <div class="hr"></div>
+      <div class="creator-box">
+        <img src="images/image-avatar.png" alt="creator avatar" class="avatar">
+        <p class="credit-text">Creation of <span class="creator-name">Jules Wyvern</span></p>
+      </div>
     </div>
-    <div class="nft-time">
-      <img src="images/icon-clock.svg" alt="time remaining" class="time-icon">
-      <p class="nft-time-text">3 days left</p>
-    </div>
-  </div>
-  <div class="hr"></div>
-  <div class="creator-box">
-    <img src="images/image-avatar.png" alt="creator avatar" class="avatar">
-    <p class="credit-text">Creation of <span class="creator-name">Jules Wyvern</span></p>
-  </div>
-</div>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="https://github.com/daniielrp">dan plummer</a>.
